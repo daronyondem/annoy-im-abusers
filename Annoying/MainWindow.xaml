@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Annoying"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Annoy IM People" Height="349.083" Width="801.904">
     <Grid>
-        
+        <TextBox Height="198" Margin="10,10,12,0" TextWrapping="Wrap" VerticalAlignment="Top" x:Name="txtMessage"/>
+        <Button Content="Send To IM" Margin="10,0,0,10" x:Name="btnSend" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75"/>
+        <TextBlock Margin="10,214,12,35" TextWrapping="Wrap"><Run Text="1. Write your text above."/><LineBreak/><Run Text="2. Click the &quot;Send To IM&quot; button."/><LineBreak/><Run Text="3. You have now 3 seconds to focus your cursor to the IM app input field where you are supposed to write text."/><LineBreak/><Run Text="4. Wait and see."/></TextBlock>
+
     </Grid>
 </Window>
